@@ -24,7 +24,6 @@ def main():
             if not shopping_list:
                 print("Your list is empty!")
                 continue
-                
             item = input("Enter item to remove: ").strip()
             if item in shopping_list:
                 shopping_list.remove(item)
